@@ -84,15 +84,15 @@ The frontend in `frontend/` provides:
 1. Create and activate a virtual environment:
 
 ```bat
-cd V:\animal_Sound_Detect
+cd V:nimal_Sound_Detect
 python -m venv venv
-venv\Scripts\activate.bat
+venv\Scriptsctivate.bat
 ```
 
 2. Install backend dependencies:
 
 ```bat
-pip install -r BACKEND\requirements.txt
+pip install -r BACKENDequirements.txt
 ```
 
 3. Run the backend:
