@@ -92,7 +92,8 @@ venv\Scriptsctivate.bat
 2. Install backend dependencies:
 
 ```bat
-pip install -r BACKENDequirements.txt
+pip install -r BACKEND
+equirements.txt
 ```
 
 3. Run the backend:
