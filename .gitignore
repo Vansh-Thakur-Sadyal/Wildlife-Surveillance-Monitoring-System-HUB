@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+.venv/
+venv/
+.Python
+pip-log.txt
+pyvenv.cfg
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Data and large workspace artifacts
+AUDIO_DATASET/
+IMAGES_DATASET/
+BACKEND/results/
+BACKEND/saved_models/
+BACKEND/yolo_runs/
+BACKEND/yolo_dataset/
+BACKEND/yolo_det_dataset/
+BACKEND/training/
+BACKEND/*.pt
+BACKEND/*.pth
+BACKEND/*.ckpt
+*.log
+*.tmp
+
+# Temporary git support
+.git_remote_tmp/
+
+# OS files
+.DS_Store
+Thumbs.db

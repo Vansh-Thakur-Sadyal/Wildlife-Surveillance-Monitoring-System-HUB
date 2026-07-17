@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <style>
+    .bg{fill:#09101f}
+    .card{fill:#12203b;stroke:#4da6ff;stroke-width:2;rx:16;}
+    .title{fill:#f8fbff;font-family:Arial,sans-serif;font-size:20px;font-weight:700;}
+    .label{fill:#a7c9ff;font-family:Arial,sans-serif;font-size:14px;}
+    .bar{fill:#4da6ff;}
+    .line{fill:none;stroke:#76ffda;stroke-width:4;}
+    .dot{fill:#76ffda;}
+  </style>
+  <rect class="bg" width="900" height="520" rx="32"/>
+  <text x="40" y="45" class="title">Dashboard Preview</text>
+  <rect class="card" x="40" y="80" width="380" height="140"/>
+  <text x="60" y="115" class="label">Image Detection</text>
+  <rect x="60" y="130" width="120" height="80" fill="#152b52" rx="12"/>
+  <text x="75" y="168" class="label">Upload + preview</text>
+
+  <rect class="card" x="480" y="80" width="380" height="140"/>
+  <text x="500" y="115" class="label">Audio Detection</text>
+  <rect x="500" y="130" width="120" height="80" fill="#152b52" rx="12"/>
+  <text x="515" y="168" class="label">Audio upload</text>
+
+  <rect class="card" x="40" y="240" width="380" height="240"/>
+  <text x="60" y="275" class="label">Camera + Mic Live Stream</text>
+  <rect x="60" y="290" width="140" height="120" fill="#152b52" rx="16"/>
+  <rect x="220" y="290" width="140" height="120" fill="#152b52" rx="16"/>
+  <text x="75" y="320" class="label">Camera</text>
+  <text x="235" y="320" class="label">Mic</text>
+
+  <rect class="card" x="480" y="240" width="380" height="240"/>
+  <text x="500" y="275" class="label">Analytics</text>
+  <rect x="520" y="310" width="330" height="40" fill="#152b52" rx="10"/>
+  <rect x="540" y="330" width="40" height="70" class="bar" rx="8"/>
+  <rect x="590" y="330" width="40" height="90" class="bar" rx="8"/>
+  <rect x="640" y="330" width="40" height="60" class="bar" rx="8"/>
+  <path class="line" d="M540 410 C580 360 620 430 680 390"/>
+  <circle class="dot" cx="540" cy="410" r="6"/>
+  <circle class="dot" cx="620" cy="390" r="6"/>
+  <circle class="dot" cx="680" cy="410" r="6"/>
+</svg>

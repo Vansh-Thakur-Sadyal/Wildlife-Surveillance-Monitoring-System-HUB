@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <style>
+    .bg{fill:#0b1220}
+    .box{fill:#17233e;stroke:#3fa9f5;stroke-width:2;rx:14;}
+    .text{fill:#e8f1ff;font-family:Arial,sans-serif;font-size:16px;}
+    .title{font-size:22px;font-weight:700;fill:#ffffff;}
+    .arrow{fill:none;stroke:#79c6ff;stroke-width:3;marker-end:url(#arrow)}
+  </style>
+  <rect class="bg" width="900" height="520" rx="32"/>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#79c6ff"/></marker></defs>
+  <text x="40" y="45" class="title">Wildlife Surveillance System Architecture</text>
+  <rect class="box" x="40" y="90" width="240" height="100"/>
+  <text x="60" y="125" class="text">Browser Frontend</text>
+  <text x="60" y="150" class="text">(Image, Audio, Live Camera, Mic)</text>
+
+  <rect class="box" x="340" y="90" width="240" height="100"/>
+  <text x="360" y="125" class="text">Flask Backend</text>
+  <text x="360" y="150" class="text">/detect, /audio_detect, /live_audio</text>
+
+  <rect class="box" x="640" y="90" width="220" height="100"/>
+  <text x="660" y="125" class="text">Detection Store</text>
+  <text x="660" y="150" class="text">CSV Export + Stats</text>
+
+  <line class="arrow" x1="280" y1="140" x2="340" y2="140"/>
+  <line class="arrow" x1="580" y1="140" x2="640" y2="140"/>
+
+  <rect class="box" x="190" y="240" width="220" height="100"/>
+  <text x="210" y="280" class="text">YOLO Detector</text>
+  <text x="210" y="305" class="text">Custom detection/classification</text>
+
+  <rect class="box" x="490" y="240" width="220" height="100"/>
+  <text x="510" y="280" class="text">Audio Classifier</text>
+  <text x="510" y="305" class="text">Spectrogram CNN</text>
+
+  <line class="arrow" x1="430" y1="290" x2="490" y2="290"/>
+  <line class="arrow" x1="310" y1="290" x2="190" y2="290"/>
+
+  <rect class="box" x="340" y="370" width="220" height="100"/>
+  <text x="360" y="410" class="text">Model Artifacts</text>
+  <text x="360" y="435" class="text">Custom weights + datasets</text>
+
+  <line class="arrow" x1="430" y1="340" x2="430" y2="370"/>
+</svg>
